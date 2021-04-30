@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ufipVgv6PGbAutDkIZypdspmYFvenFZ6IAD7skGCwQJ3Lt05TBtExmV2Z9s8WOQdkh4kiN3HKbmtPpvFj5CBEQ==",
+  "dgSpecHash": "hMfD9ASCXJ1BXcqxjsmzdglZIyxIIIeUduQqjUGWE4raTrl7DA8XcALfNkfV4h7fuZaPTAysXvfCCAA/Cv8IvA==",
   "success": true,
-  "projectFilePath": "D:\\Demo Project net core\\Proxy_NetChecker\\Proxy_NetChecker.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Source\\Repos\\Proxy_Network\\Proxy_NetChecker\\Proxy_NetChecker.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

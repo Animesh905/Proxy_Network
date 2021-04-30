@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Demo Project net core\\Proxy_NetChecker\\Proxy_NetChecker.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\Proxy_Network\\Proxy_NetChecker\\Proxy_NetChecker.csproj",
       "projectName": "Proxy_NetChecker",
-      "projectPath": "D:\\Demo Project net core\\Proxy_NetChecker\\Proxy_NetChecker.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\Proxy_Network\\Proxy_NetChecker\\Proxy_NetChecker.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\Demo Project net core\\Proxy_NetChecker\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\Proxy_Network\\Proxy_NetChecker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
