@@ -1,0 +1,6 @@
+C:\Users\ADMIN\OneDrive\Desktop\New folder\Proxy_NetChecker.exe
+C:\Users\ADMIN\OneDrive\Desktop\New folder\Proxy_NetChecker.dll
+C:\Users\ADMIN\OneDrive\Desktop\New folder\Proxy_NetChecker.deps.json
+C:\Users\ADMIN\OneDrive\Desktop\New folder\Proxy_NetChecker.runtimeconfig.json
+C:\Users\ADMIN\OneDrive\Desktop\New folder\Proxy_NetChecker.dll.config
+C:\Users\ADMIN\OneDrive\Desktop\New folder\Proxy_NetChecker.pdb
