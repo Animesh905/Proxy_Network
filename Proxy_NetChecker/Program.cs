@@ -67,7 +67,7 @@ namespace Proxy_NetChecker
                     webRequest.Proxy = proxy;
                 }
                 HttpWebResponse response = (HttpWebResponse)webRequest.GetResponse();
-                Console.WriteLine($"=====================================Web data using {proxy.Address} ===========================================");
+                Console.WriteLine($"====================================Web data using {proxy.Address} ===========================================");
                 Stream streamResponse = response.GetResponseStream();
                 StreamReader streamRead = new StreamReader(streamResponse);
                 string responseString = streamRead.ReadToEnd();
