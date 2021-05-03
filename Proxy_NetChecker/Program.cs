@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net;
 using System.Net.Http;
@@ -28,7 +28,9 @@ namespace Proxy_NetChecker
                 ConsoleLoad++;
                 if (ConsoleLoad == 1)
                 {
-                    Console.WriteLine($"Net Checker [Version:{Assembly.GetEntryAssembly().GetName().Version}]\n");
+                    Console.WriteLine($"Net Checker [Version:{Assembly.GetEntryAssembly().GetName().Version}] \n");
+                  
+                    
                 }
                 Console.Write("Please provide url:");
                 weburl = new Uri(Console.ReadLine());
@@ -76,7 +78,9 @@ namespace Proxy_NetChecker
                     webRequest.Proxy = proxy;
                 }
                 HttpWebResponse response = (HttpWebResponse)webRequest.GetResponse();
-                Console.WriteLine($"=====================================Web data using {proxy.Address} ===========================================");
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"=====================================Web data using {proxy.Address}===========================================");
+                Console.ResetColor();
                 Stream streamResponse = response.GetResponseStream();
                 StreamReader streamRead = new StreamReader(streamResponse);
                 string responseString = streamRead.ReadToEnd();
