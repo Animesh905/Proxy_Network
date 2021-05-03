@@ -51,7 +51,16 @@ namespace Proxy_NetChecker
         {
             HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(resource);
             WebProxy proxy = new WebProxy();
-            proxyAddress = $"http://{Proxyurl}:{Portno}";
+            Console.Write("Are u need Secure Connection (y/n): ");
+            string security=Console.ReadLine().ToString();
+            if (security == "y" || security == "Y")
+            {
+                proxyAddress = $"https://{Proxyurl}:{Portno}";
+            }
+            else
+            {
+                proxyAddress = $"http://{Proxyurl}:{Portno}";
+            }
             try
             {
                 if (proxyAddress.Length > 0)
